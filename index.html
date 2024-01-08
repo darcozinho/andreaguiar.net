@@ -2,30 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="andré, andré aguiar, andre, aguiar, andre aguiar, design, ui ux, ui, ux, weaver, weaver esports">
+  <meta name="twitter:site" content="@andre_aguiar0">
+  <meta name="twitter:creator" content="@andre_aguiar0">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>André</title>
+  <title>André - Oficial Website</title>
   <meta name="title" content="André">
-  <meta name="description" content="A FTTH designer and tech enthusiast">
+  <meta name="description" content="André Aguiar personal website a FTTH network designer, tech enthusiast and watch lover">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="André">
-  <meta property="og:site_name" content="André">
-  <meta property="og:description" content="A FTTH designer and tech enthusiast">
-  <meta property="og:image" content="https://secure.gravatar.com/avatar/bef98acf963cd900439472d14456600c.png?size=375">
-  <meta property="twitter:card" content="summary">
-  <meta property="twitter:site" content="@andre_aguiar0">
+  <meta property="og:title" content="André - Oficial Website">
+  <meta property="og:url" content="https://andreaguiar.net">
+  <meta property="og:description" content="André Aguiar personal website a FTTH network designer, tech enthusiast and watch lover">
+  <meta property="og:image" content="https://andreaguiar.net/og.png">
   <link rel="canonical" href="https://andreaguiar.net/">
   <link rel="icon" href="favicon.svg">
-  <link rel="image_src" href="https://secure.gravatar.com/avatar/bef98acf963cd900439472d14456600c.png?size=375">
-
+  <link rel="image_src" href="https://andreaguiar.net/og.png">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
     body {
       margin: 0;
-      font-family: "Merriweather", Georgia, serif;
-      font-weight: 300;
-      background: #000000;
+      font-family: "Inter", Georgia, serif;
+      font-weight: 900;
+      background-color: blue;
       color: #ffffff;
     }
     ::selection {
@@ -39,6 +38,11 @@
       height: 100vh;
       width: 100vw;
     }
+    .noise {
+    background:
+        radial-gradient(rgba(49,57,251,0.5), rgba(49,57,251,0)), 
+        url(https://grainy-gradients.vercel.app/noise.svg);
+    }
     .wrapper {
       max-width: 700px;
       padding: 3rem;
@@ -46,20 +50,36 @@
     .one-liner {
       margin-top: 2rem;
       margin-bottom: 0;
+      font-weight: 600
     }
-    .one-liner:first-of-type {
+    .one-liner-title {
       margin-top: 0;
+      font-weight: 400;
     }
     .hero {
-      font-weight: 700;
+      font-weight: 900;
       margin-top: 0;
     }
     .list-entry {
-      font-family: "Fira Code", monospace;
-      font-size: 0.875rem;
+      font-family: "Inter", monospace;
+      font-weight: 400;
     }
     .list-pointer {
       opacity: 0.5;
+    }
+    .footer {
+      align-items: center;
+      justify-items: center;
+      display: grid;
+       }
+    .footer-text {
+      margin-bottom: 0;
+      font-weight: 400;
+    }
+    img {
+    width:3rem;
+    height: auto;
+    padding: 1rem;
     }
     a {
       color: #00ff88;
@@ -69,17 +89,21 @@
       text-decoration: underline;
     }
   </style>
-
 </head>
 
 <body>
-  <div id="bg">
+  <div id="bg" class="noise">
     <div class="wrapper">
-      <h1 class="hero">Hi!</h1>
-      <h1 class="hero">I'm André Aguiar</h1>
-      <p class="one-liner">A FTTH designer and tech enthusiast</p>
+      <h1 class="hero">André Aguiar</h1>
+      <p class="one-liner-title">A FTTH designer and tech enthusiast</p>
 
-      <p class="one-liner">Projects \\</p>
+      <p class="one-liner">Projects</p>
+      <p class="list-entry">
+        <span class="list-pointer">&gt;</span>
+        <span>Weaver eSports 
+          <a href="https://weaver.pt" aria-label="Weaver Website" target="_blank">Oficial website</a>
+        </span>
+      </p>
       <p class="list-entry">
         <span class="list-pointer">&gt;</span>
         <span>Imefar website and branding
@@ -88,29 +112,16 @@
       </p>
       <p class="list-entry">
         <span class="list-pointer">&gt;</span>
-        <span>Flappy duck android game
+        <span>See more on
           <a href="https://www.behance.net/gallery/75807887/Game-Design-Flappy-Duck" aria-label="Behance" target="_blank">Behance</a>
         </span>
       </p>
-      <p class="list-entry">
-        <span class="list-pointer">&gt;</span>
-        <span>💚 Weaver
-          <a href="https://weaver.pt" aria-label="Weaver Website" target="_blank">Weaver oficial website</a>
-        </span>
-      </p>
-<!--
-      <p class="list-entry">
-        <span class="list-pointer">&gt;</span>
-        <span>Resource Library
-          <a href="https://resources.andreaguiar.net/" aria-label="Resources Page" target="_blank">Library</a>
-        </span>
-      </p>
--->
-      <p class="one-liner">Social \\</p>
+
+      <p class="one-liner">Social</p>
       <p class="list-entry">
         <span class="list-pointer">&gt;</span>
         <span>Twitter:
-          <a href="https://twitter.com/andre_aguiar0" aria-label="Twitter" target="_blank">@andre_aguiar0</a>
+          <a href="https://twitter.com/andre_aguiar0" aria-label="Twitter" target="_blank">andre_aguiar0</a>
         </span>
       </p>
       <p class="list-entry">
@@ -125,37 +136,11 @@
           <a href="https://www.behance.net/andreaguiar007" aria-label="Bhenace">andreaguiar007</a>
         </span>
       </p>
-      <p class="list-entry">
-        <span class="list-pointer">&gt;</span>
-        <span>Email:
-          <a href="mailto:me@andreaguiar.net" aria-label="Email">me@andreaguiar.net</a>
-        </span>
-      </p>
-
     </div>
-
+    <div class="footer">
+      <p class="footer-text">me@andreaguiar.net</p>
+      <img src="favicon.svg">
+    </div>
   </div>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
-  <script>
-    VANTA.GLOBE({
-      el: "#bg",
-      mouseControls: true,
-      touchControls: false,
-      gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      color: 0xff88,
-      color2: 0x080A35,
-      size: 0.70,
-      backgroundColor: 0x151c8f
-    })
-    </script>
-
 </body>
-
 </html>
